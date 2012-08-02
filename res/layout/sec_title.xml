@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:paddingTop="10dp"
+    android:background="@color/white">
+    <LinearLayout  android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+    <ImageView android:id="@+id/company_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:src="@drawable/logo2"
+        />
+    <EditText android:id="@+id/search_input"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:hint="City, Postal Code"
+        />
+    <ImageButton android:id="@+id/search_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:src="@drawable/btn_search"
+        />"
+    </LinearLayout>
+    <View android:id="@+id/split" 
+        android:layout_width="fill_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/line"></View>
+</LinearLayout>

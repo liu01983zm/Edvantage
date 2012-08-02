@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <include android:id = "@+id/main_title" layout="@layout/sec_title"></include>"
+    <LinearLayout android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_weight="1"
+	    android:orientation="vertical"
+	    android:paddingTop="20dp"
+	    android:paddingBottom ="20dp"
+	    android:paddingLeft="40dp"
+	    android:paddingRight="40dp"
+	    android:gravity="center"
+    >
+       <Button android:id="@+id/main_btn_partners"
+           android:layout_width="fill_parent"
+	       android:layout_height="wrap_content"
+           android:background="@drawable/line"
+           android:text="Partners"
+           android:textColor="@color/white"
+           android:textSize="22dp"
+           android:layout_marginTop="10dp">
+       </Button> 
+       <Button android:id="@+id/main_btn_special"
+           android:layout_width="fill_parent"
+	       android:layout_height="wrap_content"
+           android:background="@drawable/line"
+           android:text="Specials  Contests"
+           android:textColor="@color/white"
+           android:textSize="22dp"
+		   android:layout_marginTop="10dp">
+       </Button> 
+       <Button android:id="@+id/main_btn_news"
+           android:layout_width="fill_parent"
+	       android:layout_height="wrap_content"
+           android:background="@drawable/line"
+           android:text="e-News"
+           android:textColor="@color/white"
+           android:textSize="22dp"
+           android:layout_marginTop="10dp">
+       </Button> 
+       <Button android:id="@+id/main_btn_contact"
+           android:layout_width="fill_parent"
+	       android:layout_height="wrap_content"
+           android:background="@drawable/line"
+           android:textColor="@color/white"
+           android:text="Contact Us"
+           android:textSize="22dp"
+           android:layout_marginTop="10dp">
+       </Button> 
+    </LinearLayout>
+    <include layout="@layout/footer"/>"
+</LinearLayout>

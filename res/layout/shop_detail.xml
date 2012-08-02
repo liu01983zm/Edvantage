@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+     <include android:id = "@+id/shopdetail_title" layout="@layout/sec_title"></include>
+     <RelativeLayout android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight="1">
+        <ImageView android:id="@+id/goods_img"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/shopimg"/> 
+         <Button android:id="@+id/goods_pay"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentRight="true"
+             android:layout_alignParentBottom="true"
+             android:layout_marginRight="10dp"
+              android:layout_marginBottom="10dp"
+              android:text="Buy 1 Sub and get the 2nd FREE!"
+              android:background="@color/red"
+             />"
+     </RelativeLayout>
+     <LinearLayout  android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center_horizontal"
+             android:orientation="vertical">
+     <ImageView android:id="@+id/shop_img"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:src="@drawable/shoplogo"/>
+     <TextView android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:gravity="center"
+         android:singleLine="true"
+         android:text="Cashier Enter Promo Code"
+         android:textSize="18dp"/>
+     <TextView android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:gravity="center"
+         android:text="ENVANTAGE"
+         android:textSize="24dp"
+         android:textStyle="bold"
+         android:singleLine="true"
+         android:textColor="@color/red"/>
+     <TextView android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:gravity="center"
+          android:singleLine="true"
+         android:text="OFFER VALID ONLY AT MR.SUB STORE 21  "
+         android:textSize="18dp"/>
+     <LinearLayout android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:gravity="center_horizontal"
+             android:orientation="horizontal">
+         <TextView 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:gravity="right"
+          android:singleLine="true"
+         android:text="COUPON EXPIRES"
+         android:textSize="18dp"/>
+         <TextView android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:gravity="left"
+          android:singleLine="true"
+         android:text="06/21/2012"
+         android:textSize="18dp"
+         android:textColor="@color/red"/>
+     </LinearLayout>
+     
+     </LinearLayout>
+     
+</LinearLayout>
